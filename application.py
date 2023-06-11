@@ -35,7 +35,7 @@ def predict():
                               data=np.array([car_model,company,year,driven,fuel_type]).reshape(1, 5)))
     print(prediction)
 
-    return str(np.round(prediction[0],2))
+    return str(np.round(prediction[0],2) )
 
 
 
